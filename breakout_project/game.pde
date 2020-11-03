@@ -37,5 +37,18 @@ if(ballx<0|| ballx>width-10) {
 if(dist(px, py, ballx, bally)<=100) {
  vx=(ballx-px)/10;
  vy=(bally-py)/10;
+ 
+ 
+ //bricks
+ circle(x[0], y[0], brickd);
+ circle(x[1], y[1], brickd);
+ circle(x[2], y[2], brickd);
+ fill(0);
+ int i = 0;
+ while(i<nb ) {
+  
+  circle(x[i], y[i], brickd); 
+  i++; 
+ }
 }
 }
