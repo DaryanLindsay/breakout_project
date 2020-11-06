@@ -11,4 +11,11 @@ void gameover() {
     textSize(100);
     text("YOU WON!", width/2, height/2);
   }
+  
+  textSize(25);
+  text("CLICK TO RETURN TO MENU",width/2, 400);
+}
+
+void gameoverClicks() {
+ mode=INTRO;
 }

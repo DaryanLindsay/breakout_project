@@ -7,3 +7,5 @@ void keyReleased() {
   if(key=='a'|| key=='A') akey=false;
   if(key=='d'|| key=='D') dkey=false;
 }
+  
+  

@@ -81,4 +81,12 @@ text(lives,650, 50);
 
 
 if(lives==0||score==36) mode=GAMEOVER;
+fill(255);
+textSize(25);
+text("CLICK TO PAUSE/UNPAUSE", 200, height-50);
+}
+
+
+void gameClicks() {
+ mode=PAUSE; 
 }
